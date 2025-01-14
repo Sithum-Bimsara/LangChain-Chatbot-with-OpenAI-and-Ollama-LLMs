@@ -6,11 +6,12 @@ This project demonstrates a simple chatbot powered by two LLMs: OpenAI's GPT-3.5
 
 ## What is Streamlit?
 
-Streamlit is an open-source app framework used to build interactive web applications with Python. It's particularly useful for creating data applications and machine learning demos, allowing developers to quickly prototype and deploy apps.
+Streamlit is an open-source app framework used to build interactive web applications with Python. It's particularly useful for creating data applications and machine learning demos, allowing developers to quickly prototype and deploy apps.For more details - Go to [Streamlit's website](https://streamlit.io/).
 
 ## What is Ollama?
 
 Ollama provides access to large language models (LLMs) like Llama3.2. It allows you to run models on your local machine, offering an easy-to-use platform to interact with AI-powered models.
+For more details - Go to [Ollama's website](https://ollama.com/).
 
 ## Prerequisites
 
@@ -32,6 +33,7 @@ This will pull and install the model locally on your machine.
 
 ## Project Structure
 
+```
 chatbot/
 │
 ├── app.py                 # Streamlit app using OpenAI LLM
@@ -40,6 +42,7 @@ chatbot/
 requirements.txt           # List of dependencies
 venv/                      # Virtual environment (optional, created manually)
 README.md                  # Project documentation
+```
 
 ## Setup Instructions
 
