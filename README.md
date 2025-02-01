@@ -108,12 +108,12 @@ To stop the application, simply press `Ctrl+C` in the terminal where the app is 
 ## Requirements
 The dependencies for this project are listed in `requirements.txt`. You can view the contents of requirements.txt below:
 ```
-streamlit>=1.24.0
-python-dotenv>=1.0.0
-openai>=0.27.4
-langchain-core>=0.0.1
-langchain-community>=0.0.1
-langchain-ollama>=0.0.1
+streamlit
+python-dotenv
+openai
+langchain-core
+langchain-community
+langchain-ollama
 ```
 ## Troubleshooting
 Ensure that your `.env` file contains valid API keys and there are no syntax issues.
